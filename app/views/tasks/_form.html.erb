@@ -1,0 +1,18 @@
+    <table summary="Task form fields">
+      <tr>
+        <th><%= f.label :name %></th>
+        <td><%= f.text_field(:name) %></td>
+      </tr>
+      <tr>
+        <th><%= f.label :position %></th>
+        <td><%= f.text_field(:position) %></td>
+      </tr>
+      <tr>
+        <th><%= f.label :completed %></th>
+        <td><%= f.check_box(:completed) %></td>
+      </tr>
+      <tr>
+        <th><%= f.label :description %></th>
+        <td><%= f.text_area(:description) %></td>
+      </tr>
+    </table>
